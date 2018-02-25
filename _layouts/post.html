@@ -6,9 +6,17 @@ layout: default
     <div class="post-meta">
       <h1 class="post-title">{{ page.title }}</h1>
     </div>
-
+    <p class="post-header"><time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
+          • 
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+            1 min
+          {% else %}
+            {{ words | divided_by:180 }} mins
+          {% endif %}
+        </p>
     <section class="post-content">
-      <a name="topofpage"></a>
+      <!-- <a name="topofpage"></a> -->
       {{content}}
 
     </section>
@@ -63,9 +71,6 @@ layout: default
               {% endif %}
             </span>
           </p>
-
-          <hr>
-          <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
         </section>
       </div>
       <div class="isRight">
