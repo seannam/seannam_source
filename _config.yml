@@ -32,7 +32,7 @@ permalink: /:title/
 username: seannam
 repo: seannam.github.io
 branch: master
-source: _source/
+# source: _source/
 destination: _site/
 safe: false
 

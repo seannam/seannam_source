@@ -6,8 +6,12 @@ rvm:
 install: 
   - bundle install
 
-# script: ./script/cibuild
-script: jekyll build && htmlproofer ./_site
+script: ./script/cibuild
+# script: jekyll build && htmlproofer ./_site
+
+branches:
+  only:
+    - master
 
 env:
   global:
