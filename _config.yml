@@ -28,6 +28,14 @@ analytics_id: "UA-114674539-1"
 # Build settings
 permalink: /:title/
 
+# Travis CI settings
+username: seannam
+repo: seannam.github.io
+branch: master
+source: _source/
+destination: _site/
+safe: false
+
 markdown: kramdown
 
 kramdown:
