@@ -32,7 +32,6 @@ permalink: /:title/
 username: seannam
 repo: seannam.github.io
 branch: master
-# source: _source/
 destination: _site/
 safe: false
 
@@ -51,3 +50,4 @@ jekyll_admin:
 
 gems:
   - jekyll-paginate
+  - jekyll-gist
