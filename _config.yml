@@ -28,6 +28,10 @@ analytics_id: "UA-114674539-1"
 # Build settings
 permalink: /:title/
 
+mailchimp-list: 
+  user-id: 37cae49f6d9c8c7b096f2713a,
+  list-id: d7b130ed60
+
 # Travis CI settings
 username: seannam
 repo: seannam.github.io
