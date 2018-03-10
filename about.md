@@ -14,3 +14,6 @@ Find me online at the following places:
 - [Github](http://bit.ly/snam-github)  
 - [Stack Overflow](http://bit.ly/snam-so)
 - [LinkedIn](http://bit.ly/snam-li)  
+
+You can reach me at *namsangwoo1* @ google's email service  
+(custom email is downa as of Mar 10, 2018)  
