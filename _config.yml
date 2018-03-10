@@ -48,6 +48,6 @@ jekyll_admin:
     - datafiles
     - configuration
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
