@@ -16,4 +16,4 @@ Find me online at the following places:
 - [LinkedIn](http://bit.ly/snam-li)  
 
 You can reach me at *namsangwoo1* @ google's email service  
-(custom email is downa as of Mar 10, 2018)  
+(custom email is down as of Mar 10, 2018)  
