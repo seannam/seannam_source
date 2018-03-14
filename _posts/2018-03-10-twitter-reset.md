@@ -27,4 +27,4 @@ My goal was to:
 4. Follow people active in the past month, and
 5. Follow makers, because I like trying new things.
 
-All in all, I think I did a decent job. It's not 20, the number of people (@jasondoesstuff)[https://twitter.com/jasondoesstuff] or other people have but it feels much better than the nearly thousand people I was following before.
+All in all, I think I did a decent job. It's not 20, the number of people [@jasondoesstuff](https://twitter.com/jasondoesstuff) or other people have but it feels much better than the nearly thousand people I was following before. I still follow a few inactive accounts and a couple brands/companies, but I am satisfied with my new list.
