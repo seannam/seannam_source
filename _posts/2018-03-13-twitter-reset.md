@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Twitter Reset
-date:  2018-03-10 22:44:00 -0800
+date:  2018-03-13 22:44:00 -0800
 ---
 
 I'll be the first to admit it, I'm not a big fan of social media. Compared to my peers, you could even say I'm not addicted to Facebook, Reddit, Instagram, or Twitter. But today I decided to unfollow everyone and only follow a select few. I was inspired by Jason Zook's Twitter experiment, which you can read about [here](https://jasondoesstuff.com/unfollowing-twitter-experiment/).  
