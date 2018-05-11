@@ -8,10 +8,9 @@ permalink: /now/
 
 ## I’m currently working on:
 
-1. Setting up this new blog
-2. Django web app for Su Lab, Scripps Institute
-3. Django web app for *Triton Software Engineering*
-4. iOS development for fintech startup *SwiftChange*
-5. Technical Program Mentor (aka 'TA') for *CodePath - Swift iOS Bootcamp*
+1. Django web app for Su Lab, Scripps Institute
+2. Learning React & React Native
+3. React Native app for *[Triton Software Engineering](https://github.com/Conceptualizers/rideshare)*
 
-Last Updated: Sunday, Feb 25, 2018 03:20 AM
+
+Last Updated: Thursday, May 10, 2018 21:38
