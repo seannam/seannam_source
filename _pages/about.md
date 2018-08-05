@@ -4,16 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Hi! My name is Sean Sangwoo Nam and I'm a third year computer science student at UC San Diego.
+Hi! My name is Sean Sangwoo Nam and I'm a fourth year computer science student at UC San Diego, graduating June 2019.
 
-I love learning and using new technologies to build products and services. I've worked with a variety of different languages, frameworks, and libraries.
+I love learning and using new technologies to build products and services that solve problems or are just really cool to share. I've worked with a variety of different languages, frameworks, and libraries.
 
 You can find out more about my experience by reading my [Resume](/resume/).
 
 Find me online at the following places:
-- [Github](http://bit.ly/snam-github)  
-- [Stack Overflow](http://bit.ly/snam-so)
-- [LinkedIn](http://bit.ly/snam-li)  
+- [Github](https://bit.ly/snam-github)  
+- [Stack Overflow](https://bit.ly/snam-so)
+- [LinkedIn](https://bit.ly/snam-li)  
 
-You can reach me at *namsangwoo1* @ google's email service  
-(custom email is down as of Mar 10, 2018)  
+You can reach me at *sangwoo* @ this website OR *namsangwoo1* @ google's email service
