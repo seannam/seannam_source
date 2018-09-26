@@ -41,4 +41,4 @@ Rebuilding popular apps and websites for practice
 - [Yelp](https://github.com/seannam/CodePath-Yelp) - iOS
 - [Twitter](https://github.com/seannam/TwitterPlus) - iOS
 
-Find more projects on my [Github](http://bit.ly/snam-github)!  
+Find more projects on my [Github](https://bit.ly/snam-github)!  
