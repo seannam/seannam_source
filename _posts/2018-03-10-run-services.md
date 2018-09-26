@@ -26,6 +26,10 @@ python environment manager
 ```
 source activate project # where 'project' is the virtualenv name
 ```
+- virtualvenv
+```
+source activate project/bin/activate # where 'project' is the virtualenv name
+```
 
 node
 ```
