@@ -6,6 +6,7 @@ permalink: /now/
 
 ## I’m currently working on:
 
-1. Interning @ Perspecta, working with the County of San Diego
+1. Interning @ Anabid, a San Diego start up
+2. Taking summer classes
 
-Last Updated: Saturday, July 28 04:10 AM
+Last Updated: Friday, July 26, 2019 16:00 
