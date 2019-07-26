@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! My name is Sean Sangwoo Nam and I'm a fourth year computer science student at UC San Diego, graduating June 2019.
+Hi! My name is Sean Sangwoo Nam and I'm a fourth year computer science student at UC San Diego, graduating December 2019.
 
 I love learning and using new technologies to build products and services that solve problems or are just really cool to share. I've worked with a variety of different languages, frameworks, and libraries.
 
