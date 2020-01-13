@@ -36,17 +36,17 @@ function deploy {
 	    exit 0
 	fi  
 
-	if [ "$TRAVIS_BRANCH" != "build" ]; then
+	if [ "$TRAVIS_BRANCH" != "master" ]; then
 	    echo "except we should only publish the build branch. stopping here"
 	    exit 0
 	fi
 
 	cd _site
 	git config --global user.name "Travis CI"
-    git config --global user.email alice@example.com
+    git config --global user.email namsangwoo1+travis@gmail.com
 	git add -A
 	git status
-	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
+	git commit -m "Latest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
 	git push $DEPLOY_REPO master:master
 }
 
