@@ -1,14 +1,23 @@
 ---
-layout: default
+layout: home
 ---
 
+<header class="blog-header">
+  <div id="wrap" style="width:600px;margin:0 auto;">
+    <div id="left_col" style="float:left;width:300px; background-color: red;">
+      
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+      
+    </div>
+    <div id="right_col" style="float:right;width:300px; background-color: blue">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+    </div>
+  </div>
+</header>
+
 <main class="content" role="main">
-
-  <header class="blog-header">
-      <h1 class="blog-title">{{ site.title }}</h1>
-      <h2 class="blog-description">{{ site.description }}</h2>
-  </header>
-
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">

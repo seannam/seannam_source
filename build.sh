@@ -25,7 +25,7 @@ function get_current_site {
 function build_site { 
 	echo "building site"
 	bundle exec jekyll build --trace
-	bundle exec htmlproofer ./_site --url-ignore "/bit.ly/snam-li/", "https://jasondoesstuff.com/unfollowing-twitter-experiment/"
+	bundle exec htmlproofer ./_site --url-ignore "https://bit.ly/snam-li/", "https://jasondoesstuff.com/unfollowing-twitter-experiment/"
 }
 
 function deploy {
