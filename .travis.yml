@@ -1,16 +1,18 @@
 language: ruby
-rvm:
-- 2.4.2
-- 2.5.0
+
+cache: bundler
+
+before_install: gem update bundler
 
 install: 
   - bundle install
 
-script: ./script/cibuild
+script: 
+  - "./setup"
 
 branches:
   only:
-    - master
+    - build
 
 env:
   global:
