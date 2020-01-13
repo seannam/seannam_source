@@ -9,7 +9,7 @@
 title: Sean Nam
 email: sangwoo@seannam.com
 description: >- # this means to ignore newlines until "baseurl:"
-  UCSD Computer Science Student.
+  UC San Diego B.S. Computer Science
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://seannam.github.io" # the base hostname & protocol for your site
@@ -17,7 +17,7 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Sean Nam'
 bio: >
-  UC San Diego Computer Science major. Graduating Spring 2019.
+  UC San Diego Computer Science. Class of 2019.
 author_image: "/assets/images/author.jpg"
 twitter_username: nam_sean
 github_username:  seannam
@@ -30,9 +30,9 @@ analytics_id: "UA-114674539-1"
 # Build settings
 permalink: /:title/
 
-mailchimp-list: 
+mailchimp: 
   user-id: 37cae49f6d9c8c7b096f2713a,
-  list-id: d7b130ed60
+  list-id: 70d511f542
 
 # Travis CI settings
 username: seannam
@@ -50,6 +50,7 @@ jekyll_admin:
   hidden_links:
     - posts
     - pages
+    - pages/subscribe
     - staticfiles
     - datafiles
     - configuration

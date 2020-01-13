@@ -6,7 +6,6 @@ permalink: /now/
 
 ## I’m currently working on:
 
-1. Interning @ Anabid, a San Diego start up
-2. Taking summer classes
+- Finding a full-time software engineering role
 
-Last Updated: Friday, July 26, 2019 16:00 
+Last Updated: Sunday, January 12, 2020 16:18 

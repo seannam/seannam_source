@@ -30,6 +30,9 @@ layout: default
         </a>
       </section>
       <hr>
+      <section class="mailchimp">
+        {% include subscription-form.html %}
+      </section>
     </footer>
     <div class="bottom-teaser cf">
       <div class="isLeft">
@@ -58,7 +61,7 @@ layout: default
         <h5 class="index-headline featured"><span>Supported by</span></h5>
         <footer class="site-footer">
           <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
-          <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> RSS Feed, if you're into that.</span></a>
+          <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i><u>RSS Feed</u>, if you're into that.</span></a>
           <div class="inner">
             <section class="copyright">All content copyright {{site.name}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
           </div>

@@ -88,7 +88,6 @@ Official instructions [here](http://www.sublimetext.com/docs/3/osx_command_line.
 	- Add `export PATH=/usr/local/bin:/usr/local/sbin:$PATH` to your bash profile.  
 	- Then install Python 3 using Homebrew, `brew install python`  
 	- http://docs.python-guide.org/en/latest/starting/install3/osx/  
-
 32. Update Ruby. Until I need multiple Ruby versions, I will just use Homebrew to install the latest one. Then, following the instructions here, I can update my bash profile to point to the new directory: https://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite
 33. Install node.js using Homebrew or the provided installer on the website. Note that Homebrew installed the *Latest Version* by default while the installer provides both *LTS* and *Latest Version* options.
 34. Install the JDK from the website. As of this writing, it's version 1.8.x for Java 8.
@@ -112,8 +111,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
 
 I went back and set up a few more things like keyboard input, [Bartender](https://www.macbartender.com/), installing and setting up a few other apps, and other small things that came up. Now just waiting for Dropbox and OneDrive to sync!
 
-*Originally I followed the steps below but since I used `virtualenv` before, I will stick to it for now. Note there is a pyenv wrapper for `virtualenv` but I found it unnecessary as I don't actually use `pyenv`.       
-
+*Originally I followed the steps below but since I used `virtualenv` before, I will stick to it for now. Note there is a pyenv wrapper for `virtualenv` but I found it unnecessary as I don't actually use `pyenv`.  
 - install `pyenv` using Homebrew: `brew install pyenv`  
 - use `pyenv install --list` to see which versions are available for install
 - install the latest version of Python 3
