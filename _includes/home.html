@@ -1,0 +1,119 @@
+<style>
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .flex-item {
+    min-width: 25%
+  }
+  #seannam {
+    text-align: center;
+    font-size: 4rem;
+  }
+  #degree {
+    text-align: center;
+    font-size: 2em;
+  }
+  #whoami {
+    text-align: center;
+    font-size: 1.5em; 
+  }
+  .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-container .btn{
+    margin: 1em;
+  }
+
+  .typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .typing-container p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  .typing-container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+  }
+  .typing-container p span.TypeCursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .typing-container p span.TypeCursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+  @media (max-width:750px) {
+    .typing-container p {
+      font-size: 2rem;
+    }
+  }
+</style>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() { 
+    const TypingText = document.querySelector(".typed-text");
+    const AutoTyping = document.querySelector(".TypeCursor");
+     
+    const textArray = ["Tech Enthusiast.", "Problem Solver.", "Entrepreneur."];
+    const typingDelay = 200;
+    const erasingDelay = 100;
+    const newTextDelay = 2000; 
+    let textArrayIndex = 0;
+    let charIndex = 0;
+     
+    function type() {
+      if (charIndex < textArray[textArrayIndex].length) {
+        if(!AutoTyping.classList.contains("typing")) AutoTyping.classList.add("typing");
+        TypingText.textContent += textArray[textArrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingDelay);
+      } 
+      else {
+        AutoTyping.classList.remove("typing");
+        setTimeout(erase, newTextDelay);
+      }
+    }
+     
+    function erase() {
+      if (charIndex > 0) {
+        if(!AutoTyping.classList.contains("typing")) AutoTyping.classList.add("typing");
+        TypingText.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+        charIndex--;
+        setTimeout(erase, erasingDelay);
+      } 
+      else {
+        AutoTyping.classList.remove("typing");
+        textArrayIndex++;
+        if(textArrayIndex>=textArray.length) textArrayIndex=0;
+        setTimeout(type, typingDelay + 1100);
+      }
+    }
+
+    if(textArray.length) setTimeout(type, newTextDelay + 250);
+    console.log(textArray.length)
+  });
+
+</script>
