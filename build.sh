@@ -3,7 +3,7 @@
 
 set -e
 
-DEPLOY_REPO="https://${MY_WEBSITE}@github.com/alice/alice.github.io.git"
+DEPLOY_REPO="https://${MY_WEBSITE}@github.com/seannam/seannam.github.io.git"
 
 function main {
 	clean
