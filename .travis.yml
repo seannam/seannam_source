@@ -2,9 +2,8 @@ language: ruby
 cache: bundler
 before_install: 
   - gem install bundler
-  - gem update bundler
 install: 
-  - bundle install
+  - bundle install --jobs=3 --retry=3
 script: 
   - "./build.sh"
 env:
