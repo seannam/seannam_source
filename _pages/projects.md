@@ -17,10 +17,14 @@ With users
 #### Team Projects 
 Built with others  
 	
+- [Shiboi Web Component Library](https://ucsd-cse112.github.io/cse112-sp19-team10/)
+	- JavaScript, HTML, CSS
+	- 9 team members
+	- Team Lead
 - [UCSDScheduleMe](https://github.com/KennethLundberg/ucsdscheduleme)  
 	- C#, .net core 2, pure JavaScript (no frontend libraries/frameworks)   
 	- 9 team members  
-
+	
 ---
 
 #### Challenge Projects  

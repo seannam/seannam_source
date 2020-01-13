@@ -17,5 +17,4 @@ Find me online at the following places:
 
 You can reach me at *sangwoo* @ this website.
 
-If you'd like to subscribe to email updates about new blog posts, sign up using this [link](https://seanam.us5.list-manage.com/subscribe?u=37cae49f6d9c8c7b096f2713a&id=70d511f542)!  
-No spam and unsubscribe at any time.
+If you'd like to subscribe to email updates about new blog posts, sign up using this [link](https://seanam.us5.list-manage.com/subscribe?u=37cae49f6d9c8c7b096f2713a&id=70d511f542)! No spam and unsubscribe at any time.
