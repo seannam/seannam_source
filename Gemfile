@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "jekyll", ">= 3.7.4"
+gem "jekyll", "~>4.0"
 gem 'jekyll-paginate'
 gem 'html-proofer'
 gem 'jekyll-gist'
