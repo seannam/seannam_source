@@ -13,7 +13,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://seannam.github.io" # the base hostname & protocol for your site
+
 paginate:	5 # The number of posts to show per page on your homepage
+paginate_path: "/blog/page:num"
 
 name: 'Sean Nam'
 bio: >
@@ -23,9 +25,6 @@ twitter_username: nam_sean
 github_username:  seannam
 
 include: ["_pages"]
-
-# Google Analytics
-# analytics_id: "UA-114674539-1"
 
 # Build settings
 permalink: /:title/
@@ -50,7 +49,6 @@ jekyll_admin:
   hidden_links:
     - posts
     - pages
-    - pages/subscribe
     - staticfiles
     - datafiles
     - configuration

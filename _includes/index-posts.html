@@ -1,23 +1,6 @@
----
-layout: home
----
+{% include header.html %}
 
-<header class="blog-header">
-  <div id="wrap">
-    <div id="left_col">
-      
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-      
-    </div>
-    <div id="right_col">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-    </div>
-  </div>
-</header>
-
-<main class="content" role="main">
+<main class="content" role="main" id="blog">
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
@@ -56,4 +39,3 @@ layout: home
 
 </main>
 
-{% include footer.html %}

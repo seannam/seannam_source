@@ -24,11 +24,8 @@ safe: false
 
 Full file:
 {% gist 2faa268b21fb7593980daa7881959a60 _config.yml %}  
-
 4) Created a script file that will run `htmlproofer`, a Ruby Gem I'm using to test my site. It checks links and images.  
 {% gist 2a7536032393af4960da59df44513be9 cibuild %}  
-
 5) Added `gem 'html-proofer'` to my `Gemfile`.   
 {% gist 2cda06384d19e3c6c341874f1970fd52 Gemfile %}  
-
 6) Commit and push. Travis runs automatically.  
