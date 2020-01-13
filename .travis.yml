@@ -8,11 +8,11 @@ install:
   - bundle install
 
 script: 
-  - "./setup"
+  - "./build"
 
 branches:
   only:
-    - build
+    - master
 
 env:
   global:
