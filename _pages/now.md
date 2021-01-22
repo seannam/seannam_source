@@ -6,6 +6,6 @@ permalink: /now/
 
 ## I’m currently working on:
 
-- Finding a full-time software engineering role
+- A business management game
 
-Last Updated: Sunday, January 12, 2020 16:18 
+Last Updated: Friday, January 22, 2021 15:18 
